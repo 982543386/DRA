@@ -2,7 +2,7 @@ clear all;
 clc;
 
 N = 5;
-load(strcat('./DataSet/mats/EUA_datasets_', num2str(N), '.mat'));
+load(strcat('./DataPreProcessing/mats/EUA_datasets_', num2str(N), '.mat'));
 
 ES_modes   = {'low', 'mid', 'high'};
 % Algorithms = {'DLA', 'OLA', 'Static_optimal', 'BFD', 'Greedy_capa', 'Random'};

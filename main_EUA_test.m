@@ -4,7 +4,7 @@ clc;
 dataset = 'EUA';
 N       = 1;
 
-load(strcat('./DataSet/mats/', dataset, '_datasets_', num2str(N), '.mat'));
+load(strcat('./DataPreProcessing/mats/', dataset, '_datasets_', num2str(N), '.mat'));
 
 ES_modes   = {'low', 'mid', 'high'};
 % ES_modes   = {'low'};

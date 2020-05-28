@@ -1,11 +1,11 @@
 % clear all;
 % clc;
-% cd './DataSet/';
+% cd './DataPreProcessing/';
 % SynData_Telecom;
 
 % clear all;
 % clc;
-% cd './DataSet/';
+% cd './DataPreProcessing/';
 % SynData_EUA;
 
 clear all;
